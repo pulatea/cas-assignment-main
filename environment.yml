@@ -1,0 +1,17 @@
+name: cas
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - numpy
+  - matplotlib
+  - nibabel
+  - scikit-learn
+  - scipy
+  - SimpleITK
+  - conda-forge::vtk
+  - pip
+  - pip:
+      - transformations
